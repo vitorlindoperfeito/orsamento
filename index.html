@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script>
+        function afixar(orcamento){
+            valor = document.orcamento.VALOR.value;
+            valor1 = document.orcamento.VALOR1.value;
+            valor2 = document.orcamento.VALOR2.value;
+            valor3 = document.orcamento.VALOR3.value;
+            valor4 = document.orcamento.VALOR4.value;
+            vezes = document.orcamento.VEZES.value;
+            var total = 0;
+            var divi = 0;
+            total = ((parseInt(valor)) + (parseInt(valor1)) + (parseInt(valor2)) + (parseInt(valor3)) + (parseInt(valor4)));
+            divi = (total / (parseInt(vezes)));
+            document.orcamento.PARCELAS.value = divi;
+            document.orcamento.Total.value = total;
+        }
+
+
+    </script>
+</head>
+<body>
+    <form name="orcamento">
+    <table border="5">
+        <tr bgcolor="#50c878">
+            <td width="80" align="center">Orçamento</td>
+            <td width="40">Vezes</td>
+            <td align="center">
+                <input type="text" name="VEZES" value="">
+            </td>
+            <td width="120" align="center">Total parcelas</td>
+            <td width="40" align="center">
+                <input type="text" name="PARCELAS" value="" disabled>
+            </td>
+
+        </tr>
+        <tr bgcolor="yellow">
+            <td width="80">COD</td>
+            <td width="40" align="center" colspan="3"> Descrição</td>
+            <td align="center">valor</td>
+            
+        </tr>
+        <tr bgcolor="Green">
+            <td width="80" align="center">
+                <input type="text" name="COD" value="">
+                </td>
+
+                <td width="40" align="center" colspan="3">
+                    <input type="text" name="DESC" value="" maxlength="190">
+                </td>
+
+                <td align="center">
+                    <input type="text" name="VALOR" value="">
+                </td>
+        
+        </tr>
+
+        <tr bgcolor="Green">
+            <td width="80" align="center"> 
+                <input type="text" name="COD1" value="">
+                </td>
+
+                <td width="40" align="center" colspan="3">
+                    <input type="text" name="DESC1" value="" maxlength="190">
+                </td>
+
+                <td align="center">
+                    <input type="text" name="VALOR1" value="">
+                </td>
+            </tr>
+
+            <tr bgcolor="Green">
+                <td width="80" align="center">
+                    <input type="text" name="COD2" value="">
+                    </td>
+    
+                    <td width="40" align="center" colspan="3">
+                        <input type="text" name="DESC2" value="" maxlength="190">
+                    </td>
+    
+                    <td align="center">
+                        <input type="text" name="VALOR2" value="">
+                    </td>
+
+                    <tr bgcolor="Green">
+                        <td width="80" align="center">
+                            <input type="text" name="COD3" value="">
+                            </td>
+                            
+                            <td width="40" align="center" colspan="3">
+                                <input type="text" name="DESC3" value="" maxlength="190">
+                            </td>
+            
+                            <td align="center">
+                                <input type="text" name="VALOR3" value="">
+                            </td>
+                            <tr bgcolor="Green">
+                                <td width="80" align="center">
+                                    <input type="text" name="COD4" value="">
+                                    </td>
+                    
+                                    <td width="40" align="center" colspan="3">
+                                        <input type="text" name="DESC4" value="" maxlength="190">
+                                    </td>
+                    
+                                    <td align="center">
+                                        <input type="text" name="VALOR4" value="">
+                                    </td>
+
+                                    
+                                    
+            
+            </tr>
+            <tr>
+            <td width="120" align="center">Total Valor</td>
+            <td width="40" align="center">
+                <input type="text" name="Total" value="" disabled>
+            </td>
+
+        </tr>
+
+                <tr bgcolor="red">
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script>
+        function afixar(orcamento){
+            valor = document.orcamento.VALOR.value;
+            valor1 = document.orcamento.VALOR1.value;
+            valor2 = document.orcamento.VALOR2.value;
+            valor3 = document.orcamento.VALOR3.value;
+            valor4 = document.orcamento.VALOR4.value;
+            vezes = document.orcamento.VEZES.value;
+            var total = 0;
+            var divi = 0;
+            total = ((parseInt(valor)) + (parseInt(valor1)) + (parseInt(valor2)) + (parseInt(valor3)) + (parseInt(valor4)));
+            divi = (total / (parseInt(vezes)));
+            document.orcamento.PARCELAS.value = divi;
+            document.orcamento.Total.value = total;
+        }
+
+
+    </script>
+</head>
+<body>
+    <form name="orcamento">
+    <table border="5">
+        <tr bgcolor="#50c878">
+            <td width="80" align="center">Orçamento</td>
+            <td width="40">Vezes</td>
+            <td align="center">
+                <input type="text" name="VEZES" value="">
+            </td>
+            <td width="120" align="center">Total parcelas</td>
+            <td width="40" align="center">
+                <input type="text" name="PARCELAS" value="" disabled>
+            </td>
+
+        </tr>
+        <tr bgcolor="yellow">
+            <td width="80">COD</td>
+            <td width="40" align="center" colspan="3"> Descrição</td>
+            <td align="center">valor</td>
+            
+        </tr>
+        <tr bgcolor="Green">
+            <td width="80" align="center">
+                <input type="text" name="COD" value="">
+                </td>
+
+                <td width="40" align="center" colspan="3">
+                    <input type="text" name="DESC" value="" maxlength="190">
+                </td>
+
+                <td align="center">
+                    <input type="text" name="VALOR" value="">
+                </td>
+        
+        </tr>
+
+        <tr bgcolor="Green">
+            <td width="80" align="center"> 
+                <input type="text" name="COD1" value="">
+                </td>
+
+                <td width="40" align="center" colspan="3">
+                    <input type="text" name="DESC1" value="" maxlength="190">
+                </td>
+
+                <td align="center">
+                    <input type="text" name="VALOR1" value="">
+                </td>
+            </tr>
+
+            <tr bgcolor="Green">
+                <td width="80" align="center">
+                    <input type="text" name="COD2" value="">
+                    </td>
+    
+                    <td width="40" align="center" colspan="3">
+                        <input type="text" name="DESC2" value="" maxlength="190">
+                    </td>
+    
+                    <td align="center">
+                        <input type="text" name="VALOR2" value="">
+                    </td>
+
+                    <tr bgcolor="Green">
+                        <td width="80" align="center">
+                            <input type="text" name="COD3" value="">
+                            </td>
+                            
+                            <td width="40" align="center" colspan="3">
+                                <input type="text" name="DESC3" value="" maxlength="190">
+                            </td>
+            
+                            <td align="center">
+                                <input type="text" name="VALOR3" value="">
+                            </td>
+                            <tr bgcolor="Green">
+                                <td width="80" align="center">
+                                    <input type="text" name="COD4" value="">
+                                    </td>
+                    
+                                    <td width="40" align="center" colspan="3">
+                                        <input type="text" name="DESC4" value="" maxlength="190">
+                                    </td>
+                    
+                                    <td align="center">
+                                        <input type="text" name="VALOR4" value="">
+                                    </td>
+
+                                    
+                                    
+            
+            </tr>
+            <tr>
+            <td width="120" align="center">Total Valor</td>
+            <td width="40" align="center">
+                <input type="text" name="Total" value="" disabled>
+            </td>
+
+        </tr>
+
+                <tr bgcolor="red">
+
+                    <td align="center"width="80" colspan="5">
+                        <input type="button" name="botao"value="calcular" onclick="afixar(orcamento)"
+                    </td>
+                </tr>
+
+            
+        
+
+        
+
+
+
+
+    </table>
+</form>
+    
+</body>
+</html>
+                    <td align="center"width="80" colspan="5">
+                        <input type="button" name="botao"value="calcular" onclick="afixar(orcamento)"
+                    </td>
+                </tr>
+
+            
+        
+
+        
+
+
+
+
+    </table>
+</form>
+    
+</body>
+</html>
